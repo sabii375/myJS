@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Assignment of Event  Handeling</title>
+<style>
+    .Pic{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .cards{
+    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.4);
+    width: 70vw;
+    margin: 2em;
+    padding: 1em;
+    }
+     
+    .cards img{
+        width: 30%;
+        display:block;
+        margin: 0.5em auto;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Buton1{
+        display: block;
+        margin: auto;
+        padding: 0.8em;
+    }
+    .button1{
+        display: block;
+        margin: auto;
+        padding: 0.8em;
+    }
+    #id1{
+        display: none;
+    }
+    .arrow{
+        position: relative;
+    }
+    .left{
+        position: absolute;
+        left: 20em;
+        top: 50%;
+    }
+    .right{
+        position: absolute;
+        left:65em;
+        top: 50%;
+    }
+    #id0{
+        border-radius: 50%;
+    }
+
+
+</style>
+</head>
+<body>
+    <h3> First Assignment of Event Handeling</h3>
+    <section class="Pic">
+        <section class="cards">
+             
+            <img   src="/pictures/Dora.jpg" id="pp" style="border-radius: 50%;">
+            <button class="Buton1"> Change Image</button>
+        
+        </section>
+  
+         <section class="cards">
+            <p class="para" style="display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita magnam, sequi obcaecati ab sapiente aperiam pariatur quidem omnis reiciendis iste, iusto asperiores saepe perspiciatis necessitatibus earum, a dolore est amet.</p>
+            <button class="button1">Show Texts</button>
+
+         </section>
+
+         <section class="cards">
+            <p class="para1">Hover Mouse</p>
+         </section>
+
+    <section class="cards">
+        <section class="arrow">
+        <img class="slider" src="/pictures/1 (1).jpg" id="id0">
+        <img class="slider" src="/pictures/2.jpg" id="id1">
+        <img class="slider" src="/pictures/3.jpg" id="id1">
+        <img class="slider" src="/pictures/4.jpg" id="id1">
+        <img class="slider" src="/pictures/5.jpg" id="id1">
+
+        <button class="left"> << </button>
+        <button class="right"> >> </button>
+    </section>
+    </section>
+</section>
+    <script src="Assignment1.1.js"></script>
+</body>
+</html>
